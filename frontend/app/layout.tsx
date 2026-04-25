@@ -5,7 +5,7 @@ import { usePathname } from 'next/navigation';
 import { useAuthStore } from '@/lib/store';
 import { Analytics } from '@/lib/analytics';
 import Navbar from '@/components/Navbar';
-import './globals.css';
+// import './globals.css';
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
